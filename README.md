@@ -24,7 +24,7 @@ These examples can be called with "url" that is either a serial port (`ASRL47::I
 
 ## Programming
 
-![VM Monitor](doc/VMexample.png)
+![VM Monitor](doc/VIexample.png)
 
 The execution is threaded by virtue of three separate loops: an event loop (top), a stream loop (middle), and, in this case, a signal processing loop (bottom). Stream data returns from the `TIO Device Tick` VI and can be converted to a useful array using `TIO Data Stream`. RPC is handled using named queues.
 
