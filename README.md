@@ -1,8 +1,10 @@
 # Labview Twinleaf I/O
 
-This package implements a communications protocol in labview to work with [Twinleaf sensors](http://www.twinleaf.com) using Twinleaf I/O (TIO) as the communications layer. Data from the sensors is received via PUB messages and sensor parameters may be changed using REQ/REP messages. 
+This package implements a communications protocol in labview to work with [Twinleaf sensors](http://www.twinleaf.com) using Twinleaf I/O (TIO) as the communications layer. Data from the sensors is received via PUB messages and sensor parameters may be changed using REQ/REP messages.
 
 ![VM Monitor](doc/VMmonitor.gif)
+
+An included example for monitoring data from a [Twinleaf VMR vector magnetometer](http://www.twinleaf.com/vector/VMR).
 
 ## Prerequisites
 
