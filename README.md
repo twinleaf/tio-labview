@@ -2,12 +2,12 @@
 
 This package implements a communications protocol in labview to work with [Twinleaf sensors](http://www.twinleaf.com) using Twinleaf I/O (TIO) as the communications layer. Data from the sensors is received via PUB messages and sensor parameters may be changed using REQ/REP messages. 
 
-![VM Monitor](doc/VM Monitor.gif)
+![VM Monitor](doc/VMmonitor.gif)
 
 ## Prerequisites
 
-[National Instruments Labview 2017](https://ni.com/labview). Conversion to earlier versions are available if requested.
-[National Instruments VISA 2017](https://ni.com/visa) to use the serial port directly.
+- [National Instruments Labview 2017](https://ni.com/labview). Conversion to earlier versions are available if requested.
+- [National Instruments VISA 2017](https://ni.com/visa) to use the serial port directly.
 
 ## Installation
 
@@ -24,7 +24,7 @@ These examples can be called with "url" that is either a serial port (`ASRL47::I
 
 ## Programming
 
-![VM Monitor](doc/VM Monitor.gif)
+![VM Monitor](doc/VMexample.png)
 
 The execution is threaded by virtue of three separate loops: an event loop (top), a stream loop (middle), and, in this case, a signal processing loop (bottom). Stream data returns from the `TIO Device Tick` VI and can be converted to a useful array using `TIO Data Stream`. RPC is handled using named queues.
 
