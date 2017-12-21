@@ -8,7 +8,7 @@ An included example for monitoring data from a [Twinleaf VMR vector magnetometer
 
 ## Prerequisites
 
-- [National Instruments Labview 2017](https://ni.com/labview). Conversion to earlier versions are available if requested.
+- [National Instruments Labview 2017](https://ni.com/labview). Conversion to earlier versions is available on <a href="mailto:Twinleaf%20<info@twinleaf.com>?subject=tio-labview">request</a>.
 - [National Instruments VISA 2017](https://ni.com/visa) to use the serial port directly.
 
 ## Installation
