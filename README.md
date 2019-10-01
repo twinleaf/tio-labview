@@ -19,8 +19,8 @@ Unzip or clone into the `instr.lib` folder in the Labview installation directory
 
 Several example VIs are available:
 
-  - VM Monitor: view and log data from a [Twinleaf VMR](http://www.twinleaf.com/vector/VMR) sensor.
-  - CSB Control: Adjust the output of a [Twinleaf CSB](http://www.twinleaf.com/current/CSB) current supply.
+- VM Monitor: view and log data from a [Twinleaf VMR](http://www.twinleaf.com/vector/VMR) sensor.
+- CSB Control: Adjust the output of a [Twinleaf CSB](http://www.twinleaf.com/current/CSB) current supply.
 
 These examples can be called with "url" that is either a serial port (`ASRL47::INSTR`, `COMx`) or a net url such as `tcp://localhost` if using a serial port proxy such as the one in [tio-tools](https://github.com/twinleaf/tio-tools). 
 
@@ -32,5 +32,6 @@ The execution is threaded by virtue of three separate loops: an event loop (top)
 
 ## TODO
 
-  - [ ] Heartbeat
-  - [ ] Close port
+  - [x] Heartbeat
+  - [x] Close port
+  - [ ] Multi-device synchronization support
